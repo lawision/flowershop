@@ -1,0 +1,66 @@
+body {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #d4af37; /* Gold color */
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #3a3a3a; /* Sleek dark color */
+    color: #f0f0f0;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px #d4af37; /* Gold shadow for 3D effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #d4af37; /* Gold on hover */
+    color: #2d2d2d; /* Invert text color */
+    box-shadow: 0 6px #b8860b; /* Deeper gold shadow */
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #b8860b; /* Darken gold */
+    box-shadow: 0 2px #8b6914;
+    transform: translateY(2px); /* Button pressed effect */
+}
+
+/* Position Home button in the top left */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Position Logout button in the top right */
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

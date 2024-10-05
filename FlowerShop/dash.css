@@ -1,0 +1,44 @@
+body {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #d4af37; /* Gold color */
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Style for buttons */
+button {
+    background-color: #3a3a3a; /* Sleek dark color */
+    color: #f0f0f0;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px #d4af37; /* Gold shadow for a 3D effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #d4af37; /* Gold color on hover */
+    color: #2d2d2d; /* Invert text color */
+    box-shadow: 0 6px #b8860b; /* Deeper gold shadow */
+    transform: translateY(-2px); /* Lift button on hover */
+}
+
+/* Active button press effect */
+button:active {
+    background-color: #b8860b; /* Darken the gold color */
+    box-shadow: 0 2px #8b6914; /* Lower shadow on press */
+    transform: translateY(2px); /* Depress the button */
+}

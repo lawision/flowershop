@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gun Store</title>
+    <link rel="stylesheet" href="act3.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gun Store Inventory</h1>
+    </header>
+
+    <button class="home-btn" id="hm">Home</button>
+    <button class="logout-btn" id="log">Logout</button>
+    
+    <div class="form-container">
+        <label>Product Name</label>
+        <input type="text" id="name">
+        <label>Product Price</label>
+        <input type="number" id="price">
+        <label>Product Quantity</label>
+        <input type="number" id="qua">
+        <label>Product Description</label>
+        <input type="text" id="desc">
+        <label>Product Image</label>
+        <input type="file" id="image">
+        <button id="sub">Submit</button>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Total</th>
+                <th>Actions</th> 
+            </tr>
+        </thead>
+        <tbody id="polist"></tbody>
+    </table>
+
+    <footer>
+        <p>&copy; 2024 Gun Store. All rights reserved.</p>
+    </footer>
+
+    <script src="act3.js"></script>
+</body>
+</html>

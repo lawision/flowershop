@@ -1,0 +1,115 @@
+body {
+    background-color: #2d2d2d; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+    text-align: center; /* Center text */
+    padding: 50px; /* Padding around the body */
+    margin: 0; /* No margin */
+}
+
+h1 {
+    font-size: 40px; /* Title font size */
+    color: #d4af37; /* Gold color */
+    text-shadow: 2px 2px 5px #000; /* Text shadow */
+    margin-top: 30px; /* Space above title */
+}
+
+label {
+    font-size: 18px; /* Label font size */
+    color: #d4af37; /* Gold color for labels */
+    margin: 10px 0; /* Margin around labels */
+    display: block; /* Block display for labels */
+    text-shadow: 1px 1px 3px #000; /* Text shadow for labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    background-color: #444; /* Dark background for inputs */
+    color: #f0f0f0; /* Light text color */
+    border: 2px solid #d4af37; /* Gold border */
+    padding: 10px; /* Inner padding */
+    font-size: 16px; /* Reduced font size */
+    margin-bottom: 20px; /* Margin below inputs */
+    border-radius: 5px; /* Rounded corners */
+    width: 40%; /* Reduced width for inputs */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+    outline: none; /* No outline on focus */
+    border-color: #b8860b; /* Darker gold border on focus */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7); /* Gold glow effect on focus */
+}
+
+/* Style for buttons */
+button {
+    background-color: #3a3a3a; /* Dark button color */
+    color: #f0f0f0; /* Light text color */
+    border: none; /* No border */
+    padding: 15px 30px; /* Padding */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    margin-top: 20px; /* Margin above buttons */
+    cursor: pointer; /* Pointer on hover */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px #d4af37; /* Gold shadow for 3D effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+
+button:hover {
+    background-color: #d4af37; /* Gold color on hover */
+    color: #2d2d2d; /* Dark text color on hover */
+    box-shadow: 0 6px #b8860b; /* Darker gold shadow on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+button:active {
+    background-color: #b8860b; /* Darken gold on active */
+    box-shadow: 0 2px #8b6914; /* Darker shadow when active */
+    transform: translateY(2px); /* Button press effect */
+}
+
+/* Home button positioning */
+.home-btn {
+    position: absolute; /* Absolute positioning */
+    top: 20px; /* Distance from top */
+    left: 20px; /* Distance from left */
+}
+
+/* Logout button positioning */
+.logout-btn {
+    position: absolute; /* Absolute positioning */
+    top: 20px; /* Distance from top */
+    right: 20px; /* Distance from right */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Full width for table */
+    margin-top: 20px; /* Margin above table */
+    border-collapse: collapse; /* Collapse borders */
+    background-color: #4a4a4a; /* Table background */
+}
+
+th, td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Left alignment */
+    border-bottom: 1px solid #ffffff; /* Cell border */
+}
+
+th {
+    background-color: #5a5a5a; /* Header background */
+    color: #d4af37; /* Gold color for header text */
+}
+
+footer {
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Margin above footer */
+    color: #ffffff; /* White color for footer */
+}
+
+footer p {
+    margin: 0; /* No margin for footer text */
+}
